@@ -11,7 +11,9 @@
 }
 
 body {
-  background-color: #304861;
+  background-image: linear-gradient(
+45deg, #1a08f7, #14e45300);
+}
 }
 
 h1 {
