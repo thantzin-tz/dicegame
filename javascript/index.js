@@ -13,6 +13,9 @@ if(player2 === null){
 }
 
 function play(p1, p2){
+    
+    let audio = new Audio("sounds/diceRollVoice.mp3");
+        audio.play();
     let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
     let randomNumber2 = Math.floor(Math.random() * 6) + 1;
